@@ -1,0 +1,337 @@
+:root {
+  --gradient-color: linear-gradient(to left, #00BD78,#04ACBB );
+}
+.ContainerSignup {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 99.6vh;
+  background-image: url('./image/signup.jpeg');
+  background-size: cover;
+  
+ 
+}
+
+.ContenuSignup {
+  display: flex;
+  height: 85%;
+  width: 47.1%;
+  border-radius: 7px;
+  background-color: white;
+  box-shadow: 0 0px 45px rgba(0, 0, 0, 0.5);
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1%;
+}
+.titleSignup{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 17%;
+  font-size: 19.2;
+
+  
+}
+.contenaireContact{
+  display: flex;
+  height: 15%;
+  gap:4%;
+  width: 85%;
+
+
+}
+.contenaireContact > div{
+  
+  display: flex;
+  flex-direction: column;
+  color: #23252A;
+  font-size: 15px;
+  font-weight: bold;
+  gap: 4%;
+  width: 50%;
+}
+.contenaireContact > div > input{
+  padding: 5%;
+  background-color: #F1F3F3;
+  outline: none;
+  border: 1px solid white;
+  border-radius: 10px;
+
+}
+
+.passwordSignup{
+  display: flex;
+  height: 15%;
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  color: #23252A;
+  font-size: 15px;
+  font-weight: bold;
+  gap: 4%;
+
+}
+.inputPasswordSignup{
+  padding: 2.5%;
+  background-color: #F1F3F3;
+  outline: none;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+.confirmPasswordSignup{
+
+  display: flex;
+  height: 15%;
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  color: #23252A;
+  font-size: 15px;
+  font-weight: bold;
+  gap: 4%;
+}
+.inputConfirmPasswordSignup{
+  padding: 2.5%;
+  background-color: #F1F3F3;
+  outline: none;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+.buttonSignup{
+  display: flex;
+  height: 12%;
+  width: 85%;
+  align-items: center;
+  justify-content: right;
+  gap: 2%;
+  
+  
+}
+
+
+.buttonPrecedent{
+  color:#BACFC6;
+  border:2px solid #BACFC6;
+  gap: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 110px;
+  height: 35px;
+  border-radius: 7px;
+  background-color: white;
+}
+.precedentbuttonClick{
+  border: 2px solid #02B596;
+  background: var(--gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  gap: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 110px;
+  height: 35px;
+  border-radius: 7px;
+  background-color: white;
+}
+.buttonSuivant {
+  gap: 5%;
+  border: 2px solid #02B596;
+  background: var(--gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90px;
+  height: 35px;
+  outline: none;
+   border-radius: 7px;
+  background-color: white;
+  }
+
+.step{
+  
+  display: flex;
+  height: 12%;
+  width: 64%;
+  align-items: center;
+  justify-content: center;
+  gap: 1%;
+  margin-left: 16%;
+
+}
+.step > div{
+  width: 33%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+
+}
+.ellipseStepOne{
+  border: 1px solid #02B596;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4% 7%;
+  background-color: #02B596;
+  border-radius: 30px;
+  color: white;
+
+}
+.stepOne{
+ 
+  display: flex;
+  align-items: center;
+  justify-content: right;
+
+}
+.ellipseStepTwo{
+  border: 1px solid #02B596;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4% 7%;
+  background-color: white;
+  border-radius: 30px;
+  color: #02B596;
+
+}
+.nomSignup{
+  
+  display: flex;
+  height: 12%;
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  color: #23252A;
+  font-size: 15px;
+  font-weight: bold;
+  gap: 4%;
+
+}
+.nomSignup > input{
+ 
+  padding: 3%;
+  width: 94%;
+  background-color: #F1F3F3;
+  outline: none;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+.genreSignup{
+  display: flex;
+  height: 12%;
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  color: #23252A;
+  font-size: 15px;
+  font-weight: bold;
+  gap: 4%;
+
+}
+.radioGenre{
+  padding: 2.5%;
+  background-color: #F1F3F3;
+  outline: none;
+  border: 1px solid white;
+  border-radius: 10px;
+  gap: 50%;
+}
+
+.radioGenre input:checked + label::before {
+  background-color: green; 
+}
+.photoSignup{
+  display: flex;
+  height: 90%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  color: #23252A;
+  font-size: 15px;
+  font-weight: bold;
+  gap: 4%;
+  background-color: #F1F3F3;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px ;
+}
+.photoProfilSignup{
+  display: flex;
+  height: 21%;
+  width: 85%;
+  flex-direction: column;
+  color: #23252A;
+  font-size: 15px;
+  font-weight: bold;
+  gap: 4%;
+  justify-content: right;
+ 
+}
+.textSignupPhoto{
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 75%;
+  gap: 1%;
+  
+}
+
+.lineTree{
+  width: 75%;
+}
+.photoIdentiteSignup{
+  height: 46.5% ;
+  width: 85%;
+  gap: 3%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 10PX;
+ 
+}
+
+.photoIdentiteSignupTitre{
+
+  font-size: 19.2px;
+  font-weight: bold;
+  color: #23252A;
+}
+.photoIdentiteSignupText{
+  
+  font-size: 12px;
+  text-align: center;
+}
+.identiteSignup{
+  width:100%;
+  height: 70%;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #F1F3F3;
+  border-radius: 10px;
+}
+.validerbutton {
+  gap: 3%;
+  background-image: var(--gradient-color);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90px;
+  height: 35px;
+  outline: none;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 7px;
+  border: 2px solid #02B596;
+}
