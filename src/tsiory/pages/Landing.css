@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*niveau 1*/
+.generalContainer{
+    background-color: transparent;
+    top: 70px;
+}
+
+
+/*niveau 2*/
+.section{
+    height: 100vh;
+    width: 100vw;
+    top: 70px;
+}
