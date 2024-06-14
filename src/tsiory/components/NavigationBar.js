@@ -11,13 +11,16 @@ const NavigationBar = () => {
       </div>
       <div className="browsingSection">
         <div className="nav">ACCEUIL</div>
+        <div className="nav">
+          <p>COMMENT ÇA MARCHE</p>
+        </div>
         <div className="nav">FONCTIONNALITÉS</div>
-        <div className="nav">À PROPOS</div>
         <div className="nav">CONTACT</div>
       </div>
       <div className="actionButton">
-        <div className="seconnecter">Se connecter</div>
-        <div className="sinscrir">S'inscrire</div>
+        <div className="seconnecter">
+          <p>Se connecter</p>
+        </div>
       </div>
     </div>
   );
